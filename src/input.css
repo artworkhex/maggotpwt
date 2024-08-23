@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner1 {
+    background-image: url(../img/Ilustrasi-Budi-daya-maggot-BSF-sebagai-solusi-pengolahan-sampah-organik-dan-alternatif-bahan-pakan-sumber-protein-mongabay.co_.id_.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner2 {
+    background-image: url(../img/ba055b87-1a37-4ee9-b10c-bf0589c96d76.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.blur {
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.1px);
+-webkit-backdrop-filter: blur(11.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+    scroll-behavior: smooth;
+}
